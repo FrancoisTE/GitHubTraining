@@ -52,7 +52,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          creates and returns a container, having loaded the store for the
          application to it. This property is optional since there are legitimate
          error conditions that could cause the creation of the store to fail.
-         dssdfsdfsdf
         */
         let container = NSPersistentContainer(name: "GitHubTraining")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
